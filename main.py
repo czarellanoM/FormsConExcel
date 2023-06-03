@@ -48,6 +48,7 @@ count_wrong_shipments = 0
 
 for dato in DATOS:
 
+    # Seleciona reguional de sur
     select_reguional = (By.XPATH, '//*[@id="question-list"]/div[1]/div[2]/div/div/div/span[1]')
     wait_element_to_be_clickable_and_click(driver, select_reguional)
 
@@ -55,15 +56,14 @@ for dato in DATOS:
     wait_element_to_be_clickable_and_click(driver, select_sur)
 
 
-
+    # Seleciona la tienda de Palmeto
     select_tienda_sur = (By.XPATH, '//*[@id="question-list"]/div[2]/div[2]/div/div/div/span[1]')
     wait_element_to_be_clickable_and_click(driver, select_tienda_sur)
-
-
 
     select_tienda_sur_palmeto = (By.XPATH, '/html/body/div[2]/div/div[13]/span[2]/span')
     wait_element_to_be_clickable_and_click(driver, select_tienda_sur_palmeto)
 
+    # Seleciona el Tactico a enviar
     if dato['tactico_entregar'] == 'PORTAFREE CON SCORE 38,5K':
         print('PORTAFREE CON SCORE 38,5K')
         select_input_38_5 = (By.XPATH, '/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[3]/div[2]/div/div/div[1]/div/label/span[1]/input')
@@ -77,21 +77,22 @@ for dato in DATOS:
     else:
         print('ERRROOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO')
 
-    
+    # Envia el numero de la linea Beneficiaria
     select_Linea_Beneficiario = (By.XPATH, '/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[4]/div[2]/div/span/input')
     element_Lb = driver.find_element(*select_Linea_Beneficiario)
     element_Lb.send_keys(str(dato['LineaBeneficio']))
 
+    # Envia el numro de la linea Dummie
     select_Dummie = (By.XPATH, '/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[2]/div[5]/div[2]/div/span/input')
     element_Dmm = driver.find_element(*select_Dummie)
     element_Dmm.send_keys(str(dato['Dummi']))
 
-    
+    # Envia la infomarcion oprimiendo el boton enviar
     BotonSubmit = '/html/body/div/div/div[1]/div/div/div[3]/div/div/div[2]/div[3]/div/button'
-
     element = driver.find_element(By.XPATH, BotonSubmit)
     element.click()
 
+    # Cuenta los envios exitosos y los errados
     try:
         boton = WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.LINK_TEXT, 'Enviar otra respuesta')))
         boton.click()
@@ -105,5 +106,6 @@ for dato in DATOS:
         count_wrong_shipments += 1
         driver.refresh()
 
+# Imprime el numero de envios exitosos y fallidos
 print(f'Se enviaron Exitosamente {count_successfully} datos')
 print(f'Numero de envíos errados {count_wrong_shipments}')
