@@ -2,7 +2,7 @@
     "version": "0.6",
     "reqId": "0",
     "status": "ok",
-    "sig": "1821666626",
+    "sig": "781709521",
     "table": {
         "cols": [
             {
@@ -34,7 +34,7 @@
             },
             {
                 "id": "F",
-                "label": "\nINGRESE EL N\u00daMERO DE L\u00cdNEA AL QUE LE ENTREGAR\u00c1 EN BENEFICIO",
+                "label": "INGRESE EL N\u00daMERO DE L\u00cdNEA AL QUE LE ENTREGAR\u00c1 EN BENEFICIO",
                 "type": "number",
                 "pattern": "General"
             },
@@ -52,8 +52,18 @@
             },
             {
                 "id": "I",
-                "label": "Descargada_Enviada",
+                "label": "ENVIAR",
                 "type": "boolean"
+            },
+            {
+                "id": "J",
+                "label": "ENVIADA_DESCARGADA",
+                "type": "boolean"
+            },
+            {
+                "id": "K",
+                "label": "COMENTARIOS",
+                "type": "string"
             }
         ],
         "rows": [
@@ -91,6 +101,13 @@
                     {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": false,
+                        "f": "FALSE"
+                    },
+                    {
+                        "v": "No esta en epos"
                     }
                 ]
             },
@@ -128,6 +145,13 @@
                     {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": false,
+                        "f": "FALSE"
+                    },
+                    {
+                        "v": "No esta en epos"
                     }
                 ]
             },
@@ -165,6 +189,13 @@
                     {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": false,
+                        "f": "FALSE"
+                    },
+                    {
+                        "v": "NO SE ENCONTRO EN EPOS"
                     }
                 ]
             },
@@ -200,8 +231,15 @@
                         "f": "732111314008122"
                     },
                     {
+                        "v": true,
+                        "f": "TRUE"
+                    },
+                    {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": null
                     }
                 ]
             },
@@ -239,6 +277,13 @@
                     {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": false,
+                        "f": "FALSE"
+                    },
+                    {
+                        "v": "No esta en epos"
                     }
                 ]
             },
@@ -276,6 +321,13 @@
                     {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": false,
+                        "f": "FALSE"
+                    },
+                    {
+                        "v": "No esta en epos"
                     }
                 ]
             },
@@ -311,8 +363,15 @@
                         "f": "732111314008209"
                     },
                     {
+                        "v": true,
+                        "f": "TRUE"
+                    },
+                    {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": null
                     }
                 ]
             },
@@ -348,8 +407,15 @@
                         "f": "732111314008199"
                     },
                     {
+                        "v": true,
+                        "f": "TRUE"
+                    },
+                    {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": null
                     }
                 ]
             },
@@ -385,8 +451,15 @@
                         "f": "732111314008264"
                     },
                     {
+                        "v": true,
+                        "f": "TRUE"
+                    },
+                    {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": null
                     }
                 ]
             },
@@ -422,8 +495,15 @@
                         "f": "732111314008259"
                     },
                     {
+                        "v": true,
+                        "f": "TRUE"
+                    },
+                    {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": null
                     }
                 ]
             },
@@ -459,8 +539,15 @@
                         "f": "732111314008272"
                     },
                     {
+                        "v": true,
+                        "f": "TRUE"
+                    },
+                    {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": null
                     }
                 ]
             },
@@ -496,8 +583,15 @@
                         "f": "732111314008271"
                     },
                     {
+                        "v": true,
+                        "f": "TRUE"
+                    },
+                    {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": null
                     }
                 ]
             },
@@ -533,8 +627,15 @@
                         "f": "732111314008216"
                     },
                     {
+                        "v": true,
+                        "f": "TRUE"
+                    },
+                    {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": null
                     }
                 ]
             },
@@ -570,8 +671,15 @@
                         "f": "732111314008174"
                     },
                     {
+                        "v": true,
+                        "f": "TRUE"
+                    },
+                    {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": null
                     }
                 ]
             },
@@ -607,8 +715,15 @@
                         "f": "732111314008260"
                     },
                     {
+                        "v": true,
+                        "f": "TRUE"
+                    },
+                    {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": null
                     }
                 ]
             },
@@ -644,8 +759,15 @@
                         "f": "732111314008176"
                     },
                     {
+                        "v": true,
+                        "f": "TRUE"
+                    },
+                    {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": null
                     }
                 ]
             },
@@ -681,8 +803,15 @@
                         "f": "732111314008185"
                     },
                     {
+                        "v": true,
+                        "f": "TRUE"
+                    },
+                    {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": null
                     }
                 ]
             },
@@ -718,8 +847,15 @@
                         "f": "732111314008190"
                     },
                     {
+                        "v": true,
+                        "f": "TRUE"
+                    },
+                    {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": null
                     }
                 ]
             },
@@ -755,8 +891,235 @@
                         "f": "732111314008184"
                     },
                     {
+                        "v": true,
+                        "f": "TRUE"
+                    },
+                    {
                         "v": false,
                         "f": "FALSE"
+                    },
+                    {
+                        "v": null
+                    }
+                ]
+            },
+            {
+                "c": [
+                    {
+                        "v": "Date(2023,5,2,17,2,27)",
+                        "f": "2/6/2023 17:02:27"
+                    },
+                    {
+                        "v": "1143842967 - LEIDY TATIANA AGREDO VERGARA"
+                    },
+                    {
+                        "v": "PORTAFREE CON SCORE 38,5K"
+                    },
+                    {
+                        "v": "LORENA CUERO"
+                    },
+                    {
+                        "v": 1130655727.0,
+                        "f": "1130655727"
+                    },
+                    {
+                        "v": 3103808477.0,
+                        "f": "3103808477"
+                    },
+                    {
+                        "v": 3017014334.0,
+                        "f": "3017014334"
+                    },
+                    {
+                        "v": 732111314017485.0,
+                        "f": "732111314017485"
+                    },
+                    {
+                        "v": true,
+                        "f": "TRUE"
+                    },
+                    {
+                        "v": false,
+                        "f": "FALSE"
+                    },
+                    {
+                        "v": null
+                    }
+                ]
+            },
+            {
+                "c": [
+                    {
+                        "v": "Date(2023,5,2,17,35,7)",
+                        "f": "2/6/2023 17:35:08"
+                    },
+                    {
+                        "v": "1112476878 - RUTH ZAINER GARCIA QUINAYAS"
+                    },
+                    {
+                        "v": "PORTAFREE CON SCORE 38,5K"
+                    },
+                    {
+                        "v": " JAIDER MURILLO ASPRILLA"
+                    },
+                    {
+                        "v": 1133684001.0,
+                        "f": "1133684001"
+                    },
+                    {
+                        "v": 3175092742.0,
+                        "f": "3175092742"
+                    },
+                    {
+                        "v": 3004604347.0,
+                        "f": "3004604347"
+                    },
+                    {
+                        "v": 732111333839245.0,
+                        "f": "732111333839245"
+                    },
+                    {
+                        "v": false,
+                        "f": "FALSE"
+                    },
+                    {
+                        "v": false,
+                        "f": "FALSE"
+                    },
+                    {
+                        "v": null
+                    }
+                ]
+            },
+            {
+                "c": [
+                    {
+                        "v": "Date(2023,5,2,17,40,54)",
+                        "f": "2/6/2023 17:40:55"
+                    },
+                    {
+                        "v": "1112476878 - RUTH ZAINER GARCIA QUINAYAS"
+                    },
+                    {
+                        "v": "PORTAFREE CON SOCRE 48,5K"
+                    },
+                    {
+                        "v": "roger"
+                    },
+                    {
+                        "v": 1130603961.0,
+                        "f": "1130603961"
+                    },
+                    {
+                        "v": 3215411938.0,
+                        "f": "3215411938"
+                    },
+                    {
+                        "v": 3017014007.0,
+                        "f": "3017014007"
+                    },
+                    {
+                        "v": 732111314017478.0,
+                        "f": "732111314017478"
+                    },
+                    {
+                        "v": false,
+                        "f": "FALSE"
+                    },
+                    {
+                        "v": false,
+                        "f": "FALSE"
+                    },
+                    {
+                        "v": null
+                    }
+                ]
+            },
+            {
+                "c": [
+                    {
+                        "v": "Date(2023,5,3,10,29,50)",
+                        "f": "3/6/2023 10:29:51"
+                    },
+                    {
+                        "v": "1144106943 - ANGIE KATERINE ESPA\u00d1A PABON"
+                    },
+                    {
+                        "v": "PORTAFREE CON SCORE 38,5K"
+                    },
+                    {
+                        "v": "JUAN CARLOS TELLO DELGADO "
+                    },
+                    {
+                        "v": 16746666.0,
+                        "f": "16746666"
+                    },
+                    {
+                        "v": 3165732783.0,
+                        "f": "3165732783"
+                    },
+                    {
+                        "v": 3016403495.0,
+                        "f": "3016403495"
+                    },
+                    {
+                        "v": 732111314008255.0,
+                        "f": "732111314008255"
+                    },
+                    {
+                        "v": false,
+                        "f": "FALSE"
+                    },
+                    {
+                        "v": false,
+                        "f": "FALSE"
+                    },
+                    {
+                        "v": null
+                    }
+                ]
+            },
+            {
+                "c": [
+                    {
+                        "v": "Date(2023,5,3,10,30,30)",
+                        "f": "3/6/2023 10:30:30"
+                    },
+                    {
+                        "v": "1144106943 - ANGIE KATERINE ESPA\u00d1A PABON"
+                    },
+                    {
+                        "v": "PORTAFREE CON SCORE 38,5K"
+                    },
+                    {
+                        "v": "LUZ MARINA BUENAVENTURA MURILLO"
+                    },
+                    {
+                        "v": 31846900.0,
+                        "f": "31846900"
+                    },
+                    {
+                        "v": 3174546392.0,
+                        "f": "3174546392"
+                    },
+                    {
+                        "v": 3016397534.0,
+                        "f": "3016397534"
+                    },
+                    {
+                        "v": 732111314008182.0,
+                        "f": "732111314008182"
+                    },
+                    {
+                        "v": false,
+                        "f": "FALSE"
+                    },
+                    {
+                        "v": false,
+                        "f": "FALSE"
+                    },
+                    {
+                        "v": null
                     }
                 ]
             }

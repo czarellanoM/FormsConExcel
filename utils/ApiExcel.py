@@ -2,7 +2,7 @@ import requests
 import json
 
 
-def fetch_data_from_google_sheets(url, output_file):
+def fetch_data_from_google_sheets(url):
 
     # Realizar la solicitud GET a la API
     response = requests.get(url)

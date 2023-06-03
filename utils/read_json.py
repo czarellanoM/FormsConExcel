@@ -18,12 +18,12 @@ def process_data(file_path):
         tactico_entregar = str(row['c'][2]['v'])
         cliente = str(row['c'][3]['v'])
         cc = str(row['c'][4]['v'])
-        LineaBeneficio = str(row['c'][5]['v'])
-        Dummi = str(row['c'][6]['v'])
+        LineaBeneficio = int(row['c'][5]['v'])
+        Dummi = int(row['c'][6]['v'])
         Imsi = str(row['c'][7]['v'])
         submitLinea = bool(row['c'][8]['v'])
 
-        if not submitLinea:
+        if submitLinea:
             datos = {
                 'marca_temporal': marca_temporal,
                 'asesores': asesores,
